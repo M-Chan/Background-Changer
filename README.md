@@ -1,2 +1,2 @@
 # Background-Changer
-Making a simple background changer with html, css and JS
+Making a simple background changer with html, CSS and JavaScript
