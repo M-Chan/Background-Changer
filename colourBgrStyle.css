@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    transform: translateX(-50%);
+
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;background: rgba(255, 255, 255, 1);
+    
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+#pinkButton {
+    left: 25%;
+}
+
+#pinkButton:hover{
+    background:rgba(250, 47, 240, 1);
+}
+
+#blueButton {
+    left: 50%;
+}
+
+#blueButton:hover{
+    background:rgba(105, 227, 248, 1);
+}
+
+#yellowButton{
+    left: 75%;
+}
+
+#yellowButton:hover{
+    background:rgba(250, 220, 49, 1);
+}
